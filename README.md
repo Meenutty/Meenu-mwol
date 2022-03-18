@@ -3,7 +3,6 @@
   <img src="https://raw.githubusercontent.com/Chunkindepadayali/LIZA-MWOL/master/Its-me-liza-mwol.gif" alt="LIZA MWOL" />
 </h1>
   
-## Setup
 
 
   ### If there is an error deploying, try the following steps
