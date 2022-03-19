@@ -266,7 +266,7 @@ Raashii.addCommand({ pattern: 'chatbot ?(.*)', desc: fulleva_dsc, fromMe: true,d
         else {
             await heroku.patch(baseURI + '/config-vars', { 
                 body: { 
-                    ['LIZA_AI']: 'true'
+                    ['MEENU_AI']: 'true'
                 } 
             });
             await message.client.sendMessage(message.jid, '*' + succ_on + '*', MessageType.text)
@@ -279,7 +279,7 @@ Raashii.addCommand({ pattern: 'chatbot ?(.*)', desc: fulleva_dsc, fromMe: true,d
         else {
             await heroku.patch(baseURI + '/config-vars', { 
                 body: { 
-                    ['LIZA_AI']: 'false'
+                    ['MEENU_AI']: 'false'
                 } 
             });
             await message.client.sendMessage(message.jid, '*' + succ_off + '*', MessageType.text)
