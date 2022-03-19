@@ -21,7 +21,7 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: Lang.GL}, (async (message
 Wʜᴀᴛsᴀᴘᴘ ɢʀᴏᴜᴘ : https://chat.whatsapp.com/EfzzqyQ0JANCvyATuhAaKe
 
 
-ɢɪᴛʜᴜʙ ʟɪɴᴋ : https://github.com/Chunkindepadayali/LIZA-MWOL
+ɢɪᴛʜᴜʙ ʟɪɴᴋ : https://github.com/Meenutty/Meenu-mwol
 
  
 `}) 
