@@ -1,23 +1,33 @@
+<h3 align="center"> `𝑴𝑬𝑬𝑵𝑼 𝑴𝑾𝑶𝑳` </h3>
 
-<h1 align="center">
-  <img src="https://raw.githubusercontent.com/Chunkindepadayali/LIZA-MWOL/master/Its-me-liza-mwol.gif" alt="LIZA MWOL" />
-</h1>
-  
+<div align="center">
 
+## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F33A6A&lines=𝙒𝙀𝙇𝘾𝙊𝙈𝙀+𝙏𝙊+𝙈𝙀𝙀𝙉𝙐+𝙈𝙒𝙊𝙇+𝙒𝘼+𝘽𝙊𝙏+𝙍𝙀𝙋𝙊.;𝘾𝙍𝙀𝘼𝙏𝙀𝘿+𝘽𝙔+𝙅𝘼𝘾𝙆𝙕,𝘼𝙈𝙍𝙐,𝘼𝘽𝙐,𝙁𝙊𝙓𝙔,𝘼𝙉𝘿+𝘽𝙍𝙊𝙆𝙀𝙉;𝙏𝙃𝙄𝙎+𝙄𝙎+𝘼+𝘽𝙂𝙈+𝙎𝙏𝙄𝘾𝙆𝙀𝙍+𝘽𝙊𝙏;𝙒𝙄𝙏𝙃+𝙈𝙊𝙍𝙀+𝙁𝙀𝘼𝙏𝙐𝙍𝙀𝙎;𝙏𝙃𝘼𝙉𝙆𝙎+𝙁𝙊𝙍+𝙑𝙄𝙎𝙄𝙏𝙄𝙉𝙂+𝙊𝙐𝙍+𝙂𝙄𝙏)](https://git.io/typing-svg)
 
-  ### If there is an error deploying, try the following steps
-  
-1. If you dont have a github account create a account. Click [GIT HUB SIGN UP](https://github.com/signup/)
+ </a>
+</p>
+<div align="center">
+  <p align="center">
+<img src="https://i.imgur.com/f4jghJZ.jpeg?cid=790b7611a48d56eec88e20cfedb2c8be6e08c0fde3f8fe72&rid=giphy.gif&ct=g.gif" alt="GIF" width="300" height="275"/>
+</p>
+  <p align="center">
+<a href="https://github.com/Meenutty"><img title="Author" src="https://img.shields.io/badge/Author - MEENUTTY-cyberchekuthan/Amalser_v2?color=blue&style=for-the-badge&logo=whatsapp"></a>
+</p>
+</div>
+<p align="center">
+𝑻𝑯𝑰𝑺 𝑩𝑶𝑻 𝑰𝑺 𝑪𝑹𝑬𝑨𝑻𝑬𝑫 𝑩𝒀 𝑱𝑨𝑪𝑲𝒁 𝑨𝑵𝑫 𝑩𝑹𝑶𝑲𝑬𝑵
+    <br>
+       | © |
+        Reserved |
+    <br> 
 
-2. Open the WhatsApp account where you want to create the bot and go into the link device and SCAN the QR code Click [SCAN](https://replit.com/@chunkindepadayali/LizaMwol?v=1)
- 
+ 1) <a href="https://replit.com/@BLAICN/Angelina?v=1" target="blank"> <img align="center" alt="SCAN" height="112" width="310"/> </a> and scan QR through Whatsapp Linked device option in your whatsapp
+2. You will get a long text that needs after 4th step (ANGELINA_CODE).
 3. If You don't have a account in [Heroku](https://signup.heroku.com/), Create a account.
+4. Click [FORK](https://github.com/Jackz-ser/deployer/fork) 👈 fork this and 
+5. Now https://heroku.com/deploy?template=https://github.com/Jackz-ser/deployer copy this url and change Jackz-ser with your github username and click GO<br>
+</p>
 
-4. You will have to fork this git to deploy via Heroku.
-  click to fork the git into your account
- Click [FORK](https://github.com/Chunkindepadayali/LIZA-MWOL/fork)
-
-5. Now https://heroku.com/deploy?template=https://github.com/Chunkindepadayali/LIZA-MWOL copy this url and change Chunkindepadayali with your github username and click go<br>
 ## 1. join what's app [bot] group 
 <br>
 <a href="https://chat.whatsapp.com/JPh6rmkqbuo2wdAXvKd7Jn"><img alt="WhatsApp" src="https://img.shields.io/badge/-Whatsapp%20Group-red?style=for-the-badge&logo=whatsapp&logoColor=white"/></a> 
