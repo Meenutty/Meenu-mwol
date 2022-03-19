@@ -141,7 +141,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
         });
 
         console.log(
-            chalk.green.bold('✅️Liza Mwol working ' + config.WORKTYPE + ' 𝚗𝚘𝚠 '));
+            chalk.green.bold('✅️Meenu mwol working ' + config.WORKTYPE + ' 𝚗𝚘𝚠 '));
           // thanks to afnanplk
 	    if (config.LANG == 'EN' || config.LANG == 'ML') {
                 await git.fetch();
@@ -157,7 +157,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                     );
                     await conn.sendMessage(
                         conn.user.jid,
-                        '```type``` *.update now* ```to update```\n\n```wait..wait..\n\n ask support group before updating' + degisiklikler + '```', MessageType.text
+                        '```AN UPDATE AVAILABLE```\n\n```type``` *.update now* ```to update```' + degisiklikler + '```', MessageType.text
                 ); 
             } 
       }
@@ -255,7 +255,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
         var abc = config.BLOCKCHAT.split(',');                            
         if(msg.key.remoteJid.includes('-') ? abc.includes(msg.key.remoteJid.split('@')[0]) : abc.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
     }
-    if (config.SUPPORT == '905524317852-1612300121') {     
+    if (config.SUPPORT == '918075641889') {     
         var sup = config.SUPPORT.split(',');                            
         if(msg.key.remoteJid.includes('-') ? sup.includes(msg.key.remoteJid.split('@')[0]) : sup.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
     }
@@ -340,8 +340,8 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                         } catch (error) {
                             if (config.NOLOG == 'off') {
                                 
-                                await conn.sendMessage(conn.user.jid, '*~_________~ 𝐋𝐈𝐙𝐀 𝐌𝐖𝐎𝐋࿐ ~______~*' +
-                                    '\n\n*👾 ' + error + '*\n\n```Report errors\njoin ⚠️Warning bot not allowed in the group\nchat.whatsapp.com/HrPTDEi6NPsJpgvMZHNBg7``` ' 
+                                await conn.sendMessage(conn.user.jid, '*~_________~ 𝑴𝑬𝑬𝑵𝑼 𝑴𝑾𝑶𝑳࿐ ~______~*' +
+                                    '\n\n*👾 ' + error + '*\n\n```Report errors ' 
                                     , MessageType.text);
                             }
                         }
