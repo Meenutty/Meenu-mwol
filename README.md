@@ -21,32 +21,17 @@
         Reserved |
     <br> 
 
- 1) <a href="https://replit.com/@BLAICN/Angelina?v=1" target="blank"> <img align="center" alt="SCAN" height="112" width="310"/> </a> and scan QR through Whatsapp Linked device option in your whatsapp
-2. You will get a long text that needs after 4th step (ANGELINA_CODE).
+ 1) <a href="https://replit.com/@BLAICN/Meenu-Qr?v=1" target="blank"> <img align="center" alt="SCAN" height="112" width="310"/> </a> and scan QR through Whatsapp Linked device option in your whatsapp
+2. You will get a long text that needs after 4th step (MEENU_CODE).
 3. If You don't have a account in [Heroku](https://signup.heroku.com/), Create a account.
 4. Click [FORK](https://github.com/Jackz-ser/deployer/fork) 👈 fork this and 
-5. Now https://heroku.com/deploy?template=https://github.com/Jackz-ser/deployer copy this url and change Jackz-ser with your github username and click GO<br>
+5. Now https://heroku.com/deploy?template=https://github.com/Meenutty/deployer copy this url and change Jackz-ser with your github username and click GO<br>
 </p>
 
-## 1. join what's app [bot] group 
-<br>
-<a href="https://chat.whatsapp.com/JPh6rmkqbuo2wdAXvKd7Jn"><img alt="WhatsApp" src="https://img.shields.io/badge/-Whatsapp%20Group-red?style=for-the-badge&logo=whatsapp&logoColor=white"/></a> 
-   <br> 
 
-## 2. Bot is not allowed here
+[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@BLAICN/Meenu-Qr?v=1)
 
- <br>
-<a href="https://chat.whatsapp.com/EfzzqyQ0JANCvyATuhAaKe"><img alt="WhatsApp" src="https://img.shields.io/badge/-Whatsapp%20Group-blue?style=for-the-badge&logo=whatsapp&logoColor=white"/></a> 
-   <br>
-   
-   
-### ⚠️ Warning! 
-```
-Due to Userbot; Your WhatsApp account may be banned.
-This is an open source project, you are responsible for everything you do. 
-Absolutely, Asena executives do not accept responsibility.
-By establishing the Asena, you are deemed to have accepted these responsibilities.
-```
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://github.com/Meenutty/Meenu-mwol)
 
 
 ## License
