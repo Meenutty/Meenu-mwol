@@ -21,6 +21,7 @@
         Reserved |
     <br> 
 
+
  1) <a href="https://replit.com/@BLAICN/Meenu-Qr?v=1" target="blank"> <img align="center" alt="SCAN" height="112" width="310"/> </a> and scan QR through Whatsapp Linked device option in your whatsapp
 2. You will get a long text that needs after 4th step (MEENU_CODE).
 3. If You don't have a account in [Heroku](https://signup.heroku.com/), Create a account.
