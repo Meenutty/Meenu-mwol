@@ -34,6 +34,16 @@
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://github.com/Meenutty/Meenu-mwol)
 
 
+## Developers
+  <div align="center">
+    
+  [![Jackz-ser](https://github.com/Jackz-ser.png?size=100)](https://github.com/Jackz-ser) | [![AMRUSIR](https://github.com/AMRUSIR.png?size=100)](https://github.com/AMRUSIR) | [![Afx-Abu](https://github.com/Afx-Abu.png?size=100)](https://github.com/Afx-Abu) 
+----|----|----
+[Jackz ser](https://github.com/Jackz-ser) | [Amru Ser](https://github.com/AMRUSIR) | [Abu Ser](https://github.com/Afx-Abu)
+Base, Bug Fixes, Modules | Bug Fixes, Modules | Bug fixes, ideas
+  </div>
+
+
 ## License
 This project is protected by `GNU General Public Licence v3.0` license.
 
