@@ -29,7 +29,7 @@
 5. Now https://heroku.com/deploy?template=https://github.com/Meenutty/deployer copy this url and change Jackz-ser with your github username and click GO<br>
 </p>
 
-<a href="https://meenu-mwol.yolasite.com/"><img title="CLICK HERE TO CREATE BOT" src="./photos/bot"></a>
+<a href="https://meenu-mwol.yolasite.com/"><img title="CLICK HERE TO CREATE BOT" src="./photos/bot.png" width=300 height=100></a>
 
 
 
