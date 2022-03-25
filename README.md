@@ -29,10 +29,8 @@
 5. Now https://heroku.com/deploy?template=https://github.com/Meenutty/deployer copy this url and change Jackz-ser with your github username and click GO<br>
 </p>
 
+<a href="https://meenu-mwol.yolasite.com/"><img title="CLICK HERE TO CREATE BOT" src="./photos/bot"></a>
 
-[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@BLAICN/Meenu-Qr?v=1)
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Meenutty/Meenu-mwol)
 
 
 ## Developers
