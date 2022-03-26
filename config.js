@@ -31,7 +31,7 @@ module.exports = {
     WELCOME: process.env.WELCOME === undefined ? 'pp' : process.env.WELCOME,
     OWNER: process.env.OWNER_NAME === undefined ? 'default' : process.env.OWNER_NAME,
     ALL: process.env.ALL_CAPTION === undefined ? 'Made By LIZA MWOL' : process.env.ALL_CAPTION,
-    MENTION: process.env.TAG_REPLY === undefined ? '918921483992@s.whatsapp.net' : process.env.TAG_REPLY,
+    MENTION: process.env.TAG_REPLY === undefined ? '918075641889@s.whatsapp.net' : process.env.TAG_REPLY,
     ADDMSG: process.env.ADD_MESSAGE === undefined ? 'default' : process.env.ADD_MESSAGE,
     PLKS: process.env.THERI_LIST === undefined ? false : process.env.THERI_LIST,
     MUTEMSG: process.env.MUTE_MESSAGE === undefined ? 'default' : process.env.MUTE_MESSAGE,
@@ -59,7 +59,7 @@ module.exports = {
     HANDLERS: process.env.HANDLERS === undefined ? '^[.!;]' : process.env.HANDLERS,
     TAGPLK: process.env.TAG_HEADER === undefined ? 'Note this' : process.env.TAG_HEADER,
     SEND_READ: process.env.SEND_READ === undefined ? false : convertToBool(process.env.SEND_READ),
-    YAK: process.env.YAK === undefined ? '918075641888,0' : process.env.YAK,
+    YAK: process.env.YAK === undefined ? '918075641889,0' : process.env.YAK,
     OWNERSHIP: process.env.OWNER_SHIP === undefined ? 'LIZA-MWOL' : process.env.OWNER_SHIP,
     LIZA: process.env.LOGO_LINK === undefined ? 'https://i.imgur.com/2nYs8dN.jpg' : process.env.LOGO_LINK,
     MWOL: process.env.BGM_DURATION === undefined ? '7280542' : process.env.BGM_DURATION,
@@ -84,7 +84,7 @@ module.exports = {
     SUDO: process.env.SUDO === undefined ? false : process.env.SUDO,
     DEBUG: DEBUG,
     WITAI_API: "TEYMELA6DMC4XB5YM3SPTTQWUUIBKURG",
-    SUPPORT: "918075641889",
+    SUPPORT: "919995515152",
     SUPPORT2: "905511384572-1617736751",
     SUPPORT3: "905511384572-1621015274"
 };
