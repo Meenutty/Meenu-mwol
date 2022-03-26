@@ -80,9 +80,9 @@
         },
         "heroku": {
             "RESTART_DESC": "Restart WhatsAsena",
-            "RESTART_MSG": "```Restarting...```",
+            "RESTART_MSG": "_*RESTARTING*_...",
             "SHUTDOWN_DESC": "Shutdown WhatsAsena",
-            "SHUTDOWN_MSG": "```Appo Seri Tata📴```",
+            "SHUTDOWN_MSG": "_*SHUTTING DOWN💔*_",
             "DYNO_DESC": "Check heroku dyno usage",
             "DYNO_TOTAL": "```Total Quota```",
             "DYNO_USED": "```Quota used```",
@@ -153,7 +153,7 @@
         },
         "profile": {
             "KICKME_DESC": "It kicks you from the group you are using it in.",
-            "KICKME": "```Bye bye! Lizamwol ini varathilla 🥲```",
+            "KICKME": "```BYE BYE NAN PONN💔🥲```",
             "PP_DESC": "Makes the profile photo what photo you reply.",
             "NEED_PHOTO": "*Give me a photo!*",
             "PPING": "```Setting profile photo...```",
@@ -202,8 +202,8 @@
             "UPLOADING_SONG": "✮⃝🕊️✿𝖀𝖕𝖑𝖔𝖆𝖉𝖎𝖓𝖌 𝖄𝖔𝖚𝖗 𝕾𝖔𝖓𝖌✿✮⃝🕊️",
             "VIDEO_DESC": "Downloads video from YouTube.",
             "NEED_VIDEO": "*Please write a video link!*\n*Example:* ```.video https://www.youtube.com/watch?v=nAFlVm5qeBc```",
-            "DOWNLOADING_VIDEO": "```Downloading```",
-            "UPLOADING_VIDEO": "```Uploading```",
+            "DOWNLOADING_VIDEO": "_*Downloading*_",
+            "UPLOADING_VIDEO": "_*Uploading*_",
             "LOADING": "```Downloading video```",
             "YT_DESC": "It searchs on YouTube.",
             "NEED_WORDS": "```Please write a few words!```",
@@ -217,7 +217,7 @@
         "sticker": {
             "STICKER_DESC": "It converts your replied photo or video to sticker.",
             "NEED_REPLY": "*Reply to a photo or video!*",
-            "DOWNLOADING": "```Wait 👁️‍🗨️ cheyy ippo taram✔️```"
+            "DOWNLOADING": "```_*Converting to sticker*_```"
         },
         "system_stats": {
             "ALIVE_DESC": "Does bot work?",
@@ -242,11 +242,11 @@
             "UPDATE": "*Your bot is completely up-to-date!*",
             "NEW_UPDATE": "*New update available for Bot!*\n\nChanges:\n```",
             "UPDATE_NOW_DESC": "It makes updates.",
-            "UPDATING": "```Povalle Update cheyyatte...👻```",
+            "UPDATING": "_*UPDATE STARTED*_```",
             "INVALID_HEROKU": "*❌ Your Heroku app name or api key wrong!*",
-            "UPDATED": "*Update Kazinju🧚‍♀️✅*",
+            "UPDATED": "_*SUCCESSFULLY UPDATED*_",
             "UPDATED_LOCAL": "*✅ Updated!*",
-            "AFTER_UPDATE": "*👰 Liza mwol Restarting*",
+            "AFTER_UPDATE": "_RESTARTING*_",
             "IN_AF": "*Please check* ```HEROKU_APP_NAME``` *and* ```app name``` *They must be same.*\n*If these two values ​​are the same, please restore* ```HEROKU_API_KEY```\n\n_To access these settings, use Heroku >> App >> Settings >> Reavel Config Vars_\n_To renew your API key, follow these steps, Heroku >> Account >> API Key then replace old api key in config vars._"
         },
         "whois": {
@@ -305,12 +305,12 @@
         "conventer": {
             "MP4TOAUDİO_DESC": "Converts video to sound.",
             "MP4TOAUDİO_NEEDREPLY": "*You Must Reply to a Video!*",
-            "MP4TOAUDİO": "```Converting Video to Audio..```",
+            "MP4TOAUDİO": "_*Converting Video to Audio*_",
             "ANİM_STİCK": "Converts animated stickers to video.",
-            "ANİMATE": "```Converting Animated Sticker To Video..```",
+            "ANİMATE": "_*Converting Animated Sticker To Video..*_",
             "STİCKER_DESC": "Converts the sticker to a photo.",
             "STİCKER_NEEDREPLY": "*You Must Reply to a sticker!*",
-            "STİCKER": "```Converting the sticker to a photo..```",
+            "STİCKER": "_*Converting the sticker to a photo*_",
             "XMEDİA_DESC": "It is a plugin with more than 25 media tools.",
             "T_FALSE": "```❌ Incorrect Blend Effect Entered!```\n```🔎 Existing Commands:```\n\n*$dodge* - Applies a pink color filter to the video.\n*$multiply* - Applies a green color filter to the video.\n*$grainmerge* - Increases the contrast of the video.\n*$and* - Applies black lightning effect according to the speed of the video.\n*$or* - Applies a white lightning effect according to the speed of the video.\n*$burn* - Applies green contrast to video.\n*$difference* - Shows the differences by applying green relief to the video.\n*$grainextract* - Shows the differences by applying gray relief to the video.\n*$divide* - Demonstrates the differences by applying a pink relief to the video.\n*$xor* - Applies both green relief and lightning effect to video.\n*$hardmix* - Mixes the colors of the video into a yellow and red tone.\n*$negation* - Turns the dynamics of the video to pink.",
             "T_NOT": "```💭 You Need To Enter Any Blend Effects!\n```🔎 Existing Commands:```\n\n*$dodge* - Applies a pink color filter to the video.\n*$multiply* - Applies a green color filter to the video.\n*$grainmerge* - Increases the contrast of the video.\n*$and* - Applies black lightning effect according to the speed of the video.\n*$or* - Applies a white lightning effect according to the speed of the video.\n*$burn* - Applies green contrast to video.\n*$difference* - Shows the differences by applying green relief to the video.\n*$grainextract* - Shows the differences by applying gray relief to the video.\n*$divide* - Demonstrates the differences by applying a pink relief to the video.\n*$xor* - Applies both green relief and lightning effect to video.\n*$hardmix* - Mixes the colors of the video into a yellow and red tone.\n*$negation* - Turns the dynamics of the video to pink.",
