@@ -9,7 +9,7 @@ const path = require("path");
 const events = require("./events");
 
 const raganork = require("./raganork");
-const Meenu = require('./Meenu');
+const liza = require('./meenu');
 const { FakeDB, takeMessage } = require("./plugins/sql/fake");
 const chalk = require('chalk');
 const config = require('./config');
