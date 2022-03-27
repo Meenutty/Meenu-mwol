@@ -14,7 +14,7 @@ const Config = require('../config');
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({pattern: 'xxxtentacion', fromMe: true, desc: 'random xxxtentacion images'}, (async (message, match) => {
+    Asena.addCommand({pattern: 'xxxtentacion', fromMe: true, desc: 'get random xxxtentacion images'}, (async (message, match) => {
 
     var r_text = new Array ();
 
