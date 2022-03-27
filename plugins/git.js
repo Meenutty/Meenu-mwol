@@ -1,29 +1,47 @@
-const Asena = require('../events');
-const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
-const axios = require('axios');
+const asena = require('../events');
+
+const {MessageType} = require('@adiwajshing/baileys');
+
+const GM = "it sends bot deploying link"
+
+const GN = "it sends bot deploying link"
+
 const Config = require('../config');
-const fs = require("fs")
-const Language = require('../language');
-const Lang = Language.getString('gitlink');
 
-Asena.addCommand({pattern: 'git', fromMe: false, desc: Lang.GL}, (async (message, match) => {
+if (Config.WORKTYPE == 'private') {
 
-    var respoimage = await axios.get(config.LIZA, { responseType: 'arraybuffer' })
+asena.addCommand({pattern: 'git', fromMe: true, deleteCommand: true, desc: GM,}, (async (message, match) => {
 
+    var r_text = new Array ();
 
-    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {quoted: message.data , thumbnail: fs.readFileSync('liza mwol v2.jpg'), mimetype: Mimetype.png, caption: `~========~ ʟɪɴᴋs ~========~ 
+    r_text[0] = "*https://github.com/Jackz-ser/Angelina*"; 
  
-ᴏᴡɴᴇʀ ɴᴜᴍʙᴇʀ wa.me/918137829228
-   
-ᴏᴡɴᴇʀ ɴᴜᴍʙᴇʀ wa.me/918075379950
+    var i = Math.floor(1*Math.random())
 
+    await message.client.sendMessage(
 
-Wʜᴀᴛsᴀᴘᴘ ɢʀᴏᴜᴘ : https://chat.whatsapp.com/EfzzqyQ0JANCvyATuhAaKe
+        message.jid,(r_text[i]), MessageType.text);
 
+    }));
+    
 
-ɢɪᴛʜᴜʙ ʟɪɴᴋ : https://github.com/Meenutty/Meenu-mwol
+    }
 
- 
-`}) 
+    if (Config.WORKTYPE == 'public') {
 
-})); 
+        asena.addCommand({pattern: 'git', fromMe: false, deleteCommand: true, desc: GM,}, (async (message, match) => {
+
+            var r_text = new Array ();
+
+                 r_text[0] = "*BOT GIT : github.com/Meenutty/Meenu-mwol*\n\n\n*DEVELOPERS*\n\n*Jackz ser : wa.me/918075641889*\nAbu ser : wa.me/917025994178*\nAmru ser : wa.me/917025631103*\n*Foxy ser : wa.me/919400490452*"; 
+
+                     var i = Math.floor(1*Math.random())
+
+                         await message.client.sendMessage(
+
+                               message.jid,(r_text[i]), MessageType.text);
+
+    }));
+    
+
+   }
