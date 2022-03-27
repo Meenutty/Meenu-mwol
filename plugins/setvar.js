@@ -8,7 +8,7 @@ const Language = require('../language');
 
 const Lang = Language.getString('wallpaper');
 
-Asena.addCommand({pattern: 'setvar', fromMe: false, desc: Lang.WP}, (async (message, match) => {
+Asena.addCommand({pattern: 'allsetvar', fromMe: false, desc: Lang.WP}, (async (message, match) => {
 
     var r_text = new Array ();
 
@@ -16,7 +16,7 @@ Asena.addCommand({pattern: 'setvar', fromMe: false, desc: Lang.WP}, (async (mess
 
     
 
-    r_text[0] = "https://i.imgur.com/rlpkX3j.jpeg";
+    r_text[0] = "https://i.imgur.com/pupdZXg.jpeg";
 
     
 
@@ -28,7 +28,7 @@ Asena.addCommand({pattern: 'setvar', fromMe: false, desc: Lang.WP}, (async (mess
 
     await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `⛦━━💘SETVAR💘━━⛦
 
-𝐇𝐞𝐥𝐥𝐨 🦋 𝐈 𝐚𝐦 𝐚 Lizamwol 𝐛𝐨𝐭.
+𝑴𝑬𝑬𝑵𝑼 𝑴𝑾𝑶𝑳 𝑾𝑯𝑨𝑻𝑺𝑨𝑷𝑷 𝑩𝑶𝑻
 
   
 
@@ -118,7 +118,7 @@ All setvars are
 
  .setvar THERI_LIST:badword,badword
 
- To change AMALSER bot name
+ To change MEENUTTY bot name
 
  .setvar BOT_NAME:your bot name
 
@@ -126,15 +126,15 @@ All setvars are
 
  .setvar TAG_REPPLY:your jid 
 
-     *happy using Lizamwol bot 🧚‍♂️*
+     *𝑯𝑨𝑷𝑷𝒀 𝑼𝑺𝑰𝑵𝑮 𝑴𝑬𝑬𝑵𝑼𝑻𝑻𝒀 🧚‍♂️*
 
-*Editing And Devaloper : Nithin-Fayas*
+*Editing And Developer : Jackz Ser*
 
-*Erorr Fixing : Fayas Ser💘*
+*Error Fixing : Abu Ser💘*
 
-*Supporting : Black mods*
+*Supporting : Amru Ser*
 
-*User Support : Nithin*
+*User Support : Foxy Ser*
 
       ═════💢💢═════
 
