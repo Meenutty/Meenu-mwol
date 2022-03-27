@@ -3,7 +3,6 @@ const {MessageType} = require('@adiwajshing/baileys');
 const got = require('got');
 const fs = require('fs');
 const axios = require('axios');
-const Config = require('../config');
 const { errorMessage, infoMessage } = require('../helpers');
 const IG_DESC = "Downloads Image/Video From Instagram"
 const NEED_WORD = "Must Enter a link"
@@ -33,11 +32,11 @@ Asena.addCommand({ pattern: 'ig ?(.*)', fromMe: false, desc: IG_DESC}, async (me
         const msg = `${type}`
 
 	 if (msg === 'image') { await message.sendMessage(Buffer.from(profileBuffer.data), MessageType.image, {
-          caption: +Config.ALL+
+          caption: 'insta'
         })}
 		 	 
 	if (msg === 'video') { await message.sendMessage(Buffer.from(profileBuffer.data), MessageType.video, {
-          caption: +Config.ALL+
+          caption: 'insta'
         })}
 	
         
@@ -72,7 +71,7 @@ Asena.addCommand({ pattern: 'fb ?(.*)', fromMe: false, desc: FBDESC }, async (me
         const msg = `*${CAPTION}*: ${judul}`
 
         await message.sendMessage(Buffer.from(profileBuffer.data), MessageType.video, {
-          caption: +Config.ALL+
+          caption: 'insta'
         })
       })
       .catch(
