@@ -45,7 +45,7 @@ Base, Bug Fixes, Modules | Bug Fixes, Modules | Bug fixes, ideas | Bug fixes, id
 
 ```
 By using kick, add, promote, demote Commands, Your WhatsApp account may be banned.
-spirit ser or we are not responsible for your account, 
+We are not responsible for your account, 
 This bot is intended for the purpose of having fun with some fun commands 
 and group management with some helpfull commands.
 
