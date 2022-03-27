@@ -14,7 +14,7 @@ const r = [
 {title: 'GIT', Click to get bots github link: '', rowId:'git'+us},
 {title: 'XMEDIA', Xmedia commands are here: '', rowId:'xmedia'+us},
 {title: 'LIST', A list of all commands: '', rowId:'list'+us}]
-const sections = [{title: '© Jackz/Angelina', rows: r}]
+const sections = [{title: '© Jackz/MEENUTTY', rows: r}]
 const l = {
 buttonText: 'CLICK ME ☕︎',
 description: '*HEY BOT USER \n\n CLICK TO KNOW ABOUT ALL THE COMMANDS*',
@@ -59,7 +59,7 @@ var afnplk = '```⏱ Time :' + plk_say + '```\n\n ```📅 Date :' + plk_here + '
       ]
       
       const buttonMessage = {
-          contentText: ' 𝑯𝑬𝒀 𝑼𝑺𝑬𝑹....👋🏻\n\n         ☆ *𝙱𝙾𝚃 𝙸𝙽𝙵𝙾* ☆\n\n🎗️ ɴᴀᴍᴇ  : 𝓜𝓔𝓔𝓝𝓤𝓣𝓣𝓨      \n🎗️ sᴛᴀᴛᴇs : ᴘᴜʙʟɪᴄ\n🎗️ ᴛɪᴍᴇ   : ```' + plk_say + '```\n🎗️ ᴅᴀᴛᴇ : ```' + plk_here + '```\n🎗️ ᴘᴇʀғɪx : [ . ]\n\n         ☆ *𝙲𝚁𝙴𝙰𝚃𝙾𝚁𝚂* ☆\n\n🎗️𝙹𝙰𝙲𝙺𝚉,𝙱𝚁𝙾𝙺𝙴𝙽\n\n          ☆ *𝚃𝙷𝙰𝙽𝙺𝚂* ☆\n\n🎗️ ᴄʟɪᴄᴋ ᴍᴇɴᴜ ᴀɴᴅ ᴇɴᴊᴏʏ ᴛʜᴇ ʙᴏᴛ\n',
+          contentText: ' 𝑯𝑬𝒀 𝑼𝑺𝑬𝑹....👋🏻\n\n         ☆ *𝙱𝙾𝚃 𝙸𝙽𝙵𝙾* ☆\n\n🎗️ ɴᴀᴍᴇ  : 𝕄𝔼𝔼ℕ𝕌𝕋𝕋𝕐      \n🎗️ sᴛᴀᴛᴇs : ᴘᴜʙʟɪᴄ\n🎗️ ᴛɪᴍᴇ   : ```' + plk_say + '```\n🎗️ ᴅᴀᴛᴇ : ```' + plk_here + '```\n🎗️ ᴘᴇʀғɪx : [ . ]\n\n         ☆ *𝙲𝚁𝙴𝙰𝚃𝙾𝚁𝚂* ☆\n\n🎗️𝙹𝙰𝙲𝙺𝚉,𝙱𝚁𝙾𝙺𝙴𝙽\n\n          ☆ *𝚃𝙷𝙰𝙽𝙺𝚂* ☆\n\n🎗️ ᴄʟɪᴄᴋ ᴍᴇɴᴜ ᴀɴᴅ ᴇɴᴊᴏʏ ᴛʜᴇ ʙᴏᴛ\n',
           footerText: '© Meenutty™',
           buttons: buttons,
           headerType: 1
