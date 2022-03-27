@@ -26,7 +26,7 @@ LizaMwol.addCommand({pattern: 'alive', fromMe: whb, dontAddCommandList: true}, (
       
       const buttonMessage = {
           contentText: '```'+Config.BOTV2+'\n\n```'+Config.ALIVEMSG+'\n',
-          footerText:  +Config.BOTV2,
+          footerText:  'ᴍᴇᴇɴᴜᴛᴛʏ ™,
           buttons: buttons,
           headerType: 1
       }
