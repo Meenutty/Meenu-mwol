@@ -11,8 +11,8 @@ addCommand({pattern: 'help ?(.*)', fromMe: manual, desc: "Sends bot list"}, (asy
 const r = [
 {title: 'OWNER', description: '', rowId:'owner'+us},
 {title: 'GIT', Click to get bots github link: '', rowId:'git'+us},
-{title: 'XMEDIA', Xmedia commands are here: '', rowId:'editing'+us},
-{title: 'LIST', A list of all.commands: '', rowId:'menu'+us}]
+{title: 'XMEDIA', Xmedia commands are here: '', rowId:'xmedia'+us},
+{title: 'LIST', A list of all commands: '', rowId:'list'+us}]
 const sections = [{title: '© Jackz/Angelina', rows: r}]
 const l = {
 buttonText: 'CLICK ME ☕︎',
@@ -23,8 +23,8 @@ await m.client.sendMessage(m.jid, l, MessageType.listMessage)
 }));
 addCommand({on:'button', fromMe:manual}, (async (b,ma) => { 
 console.log(b.list)
-if (b.list === 'owner'+us) await b.client.sendMessage(b.jid, owner,MessageType.text,{quoted:b.data})
-if (b.list === 'list'+us) await b.client.sendMessage(b.jid, menu,MessageType.text,{quoted:b.data})
-if (b.list === 'git'+us) await b.client.sendMessage(b.jid, info,MessageType.text,{quoted:b.data})
-if (b.list === 'xmedia'+us) await b.client.sendMessage(b.jid, editing,MessageType.text,{quoted:b.data})
+if (b.button === 'owner'+us) await b.client.sendMessage(b.jid, owner,MessageType.text,{quoted:b.data})
+if (b.button === 'list'+us) await b.client.sendMessage(b.jid, menu,MessageType.text,{quoted:b.data})
+if (b.button === 'git'+us) await b.client.sendMessage(b.jid, info,MessageType.text,{quoted:b.data})
+if (b.button === 'xmedia'+us) await b.client.sendMessage(b.jid, editing,MessageType.text,{quoted:b.data})
 	}));
