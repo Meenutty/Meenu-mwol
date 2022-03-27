@@ -41,7 +41,17 @@
 [Jackz ser](https://github.com/Jackz-ser) | [Amru Ser](https://github.com/AMRUSIR) | [Abu Ser](https://github.com/Afx-Abu)
 Base, Bug Fixes, Modules | Bug Fixes, Modules | Bug fixes, ideas
   </div>
+### ⚠ Warning ⚠
 
+```
+By using kick, add, promote, demote Commands, Your WhatsApp account may be banned.
+spirit ser or we are not responsible for your account, 
+This bot is intended for the purpose of having fun with some fun commands 
+and group management with some helpfull commands.
+
+If  you ended up spamming groups, getting reported left and right, 
+and you ended up in being fight with WhatsApp
+and at the end WhatsApp Team deleted your account. DON'T BLAME US.
 
 ## License
 This project is protected by `GNU General Public Licence v3.0` license.
