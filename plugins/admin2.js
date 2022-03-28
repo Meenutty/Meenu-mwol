@@ -1,5 +1,5 @@
 /*codded by afnanplk 
-re modified chunkinde padayali
+re modified Jackz
 */
 
 const {MessageType, GroupSettingChange} = require('@adiwajshing/baileys');
