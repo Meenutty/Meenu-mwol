@@ -24,7 +24,7 @@ const SEWC = "```Dice Rolled:``` "
 
             await new Promise(r => setTimeout(r, 4000));
 
-            // Numbers
+            // Number
 
             var r_text = new Array ();
 
