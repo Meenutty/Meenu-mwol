@@ -19,10 +19,10 @@ const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', da
 var plk_here = new Date().toLocaleDateString(get_localized_date)
 var afnplk = '```⏱ Time :' + plk_say + '```\n\n ```📅 Date :' + plk_here + '```'
 var wish = ''
-if (hrs >= 00 && hrs <= 12) wish = '*ɢᴏᴏᴅ ᴍᴏʀɴɪɴɢ ⛅*'
-if (hrs >= 12 && hrs <= 17) wish = '*ɢᴏᴏᴅ ᴀғᴛᴇʀɴᴏᴏɴ 🌞*'
-if (hrs >= 17 && hrs <= 19) wish = '*ɢᴏᴏᴅ ᴇᴠᴇɴɪɴɢ 🌥*'
-if (hrs >= 19 && hrs <= 23) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
+if (hrs >= 00 && hrs <= 12) wish = '𝑮𝑶𝑶𝑫 𝑴𝑶𝑹𝑵𝑰𝑵𝑮 ⛅'
+if (hrs >= 12 && hrs <= 17) wish = '𝑮𝑶𝑶𝑫 𝑨𝑭𝑻𝑬𝑹𝑵𝑶𝑶𝑵 🌞'
+if (hrs >= 17 && hrs <= 19) wish = '𝑮𝑶𝑶𝑫 𝑬𝑽𝑬𝑵𝑰𝑵𝑮 🌥'
+if (hrs >= 19 && hrs <= 23) wish = '𝑮𝑶𝑶𝑫 𝑵𝑰𝑮𝑯𝑻 🌙'
 
 
 let whb = Config.WORKTYPE == 'public' ? false : true
@@ -35,7 +35,7 @@ LizaMwol.addCommand({pattern: 'alive', fromMe: whb, dontAddCommandList: true}, (
       ]
       
       const buttonMessage = {
-          contentText: '*ʜᴇʏ ᴜsᴇʀ* ' + wish + '\n ⏲️ʙᴏᴛ ᴏɴ sɪɴᴄᴇ : ' + plk_say + '\n 📆ᴅᴀᴛᴇ : ' + plk_here + '\n\n〄 ʙᴏᴛ ɴᴀᴍᴇ : '+Config.BOTV2+'™\n〄 ᴏᴡɴᴇʀ : '+Config.OWNER+'\n〄 ᴡᴏʀᴋᴛʏᴘᴇ : '+Config.WORKTYPE+'\n〄 ʜᴀɴᴅʟᴇʀs : '+Config.HANDLERS+'\n〄 ɴᴜᴍʙᴇʀ : wa.me/'+Config.NU+'\n〄 ʙᴏᴛ ᴠᴇʀsɪᴏɴ : 1.0.0\n〄 ʟᴀɴɢᴜᴀɢᴇ : '+Config.LANG+'\n〄 ᴡᴀ ᴠᴇʀsɪᴏɴ : 14.8.7\n〄 sᴇʀᴠᴇʀ : Baileys\n〄 sᴛᴏʀᴀɢᴇ : 187GB/674678GB \n\n'+Config.ALIVEMSG+'\n',
+          contentText: '𝑯𝑬𝒀 𝑼𝑺𝑬𝑹 🧚‍♂️\n ' + wish + '\n ⏲️ʙᴏᴛ ᴏɴ sɪɴᴄᴇ : ' + plk_say + '\n 📆ᴅᴀᴛᴇ : ' + plk_here + '\n\n〄 ʙᴏᴛ ɴᴀᴍᴇ : '+Config.BOTV2+'™\n〄 ᴏᴡɴᴇʀ : '+Config.OWNER+'\n〄 ᴡᴏʀᴋᴛʏᴘᴇ : '+Config.WORKTYPE+'\n〄 ʜᴀɴᴅʟᴇʀs : '+Config.HANDLERS+'\n〄 ɴᴜᴍʙᴇʀ : wa.me/'+Config.NU+'\n〄 ʙᴏᴛ ᴠᴇʀsɪᴏɴ : 1.0.0\n〄 ʟᴀɴɢᴜᴀɢᴇ : '+Config.LANG+'\n〄 ᴡᴀ ᴠᴇʀsɪᴏɴ : 14.8.7\n〄 sᴇʀᴠᴇʀ : Baileys\n〄 sᴛᴏʀᴀɢᴇ : 187GB/674678GB \n\n'+Config.ALIVEMSG+'\n',
           footerText:  '©'+Config.BOTLIZA+' ™',
           buttons: buttons,
           headerType: 1
