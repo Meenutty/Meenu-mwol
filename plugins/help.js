@@ -59,7 +59,7 @@ var afnplk = '```⏱ Time :' + plk_say + '```\n\n ```📅 Date :' + plk_here + '
       ]
       
       const buttonMessage = {
-          contentText: ' 𝑯𝑬𝒀 𝑼𝑺𝑬𝑹...\n\n         ☆ *𝖡𝖮𝖳 𝖨𝖭𝖥𝖮* ☆\n\n☣️ ɴᴀᴍᴇ  : ' +Config.BOTV2+ '       \n☣️ sᴛᴀᴛᴇs : ' +Config.WORKTYPE+ '\n☣️ ᴛɪᴍᴇ   : ```' + plk_say + '```\n☣️ ᴅᴀᴛᴇ : ```' + plk_here + '```\n☣️ ᴘᴇʀғɪx : ' +Config.HANDLERS+ '\n\n         ☆ *𝙲𝚁𝙴𝙰𝚃𝙾𝚁𝚂* ☆\n\n〽️𝑫𝑬𝑽𝑬𝑳𝑶𝑷𝑬𝑹𝑺\nJᴀᴄᴋᴢ,ᴀʙᴜ,ᴀᴍʀᴜ,ғᴏxʏ,ᴘʀɪɴᴄᴇ\n\n          ☆ *𝚃𝙷𝙰𝙽𝙺𝚂* ☆\n\n☣️ᴄʟɪᴄᴋ ᴍᴇɴᴜ ᴀɴᴅ ᴇɴᴊᴏʏ ᴛʜᴇ ʙᴏᴛ\n',
+          contentText: ' 𝑯𝑬𝒀 𝑼𝑺𝑬𝑹...\n\n         ☆ *𝖡𝖮𝖳 𝖨𝖭𝖥𝖮* ☆\n\n☣️ ɴᴀᴍᴇ  : ' +Config.BOTV2+ '       \n☣️ ᴡᴏʀᴋᴛʏᴘᴇ : ' +Config.WORKTYPE+ '\n☣️ ᴛɪᴍᴇ   : ```' + plk_say + '```\n☣️ ᴅᴀᴛᴇ : ```' + plk_here + '```\n☣️ ʜᴀɴᴅʟᴇʀs : ' +Config.HANDLERS+ '\n\n〽️𝑫𝑬𝑽𝑬𝑳𝑶𝑷𝑬𝑹𝑺\nJᴀᴄᴋᴢ,ᴀʙᴜ,ᴀᴍʀᴜ,ғᴏxʏ,ᴘʀɪɴᴄᴇ\n\n          ☆ *𝑻𝑯𝑨𝑵𝑲𝒁* ☆\n\n☣️ᴄʟɪᴄᴋ ᴍᴇɴᴜ ᴀɴᴅ ᴇɴᴊᴏʏ ᴛʜᴇ ʙᴏᴛ\n',
           footerText: '© '+Config.BOTLIZA+'™',
           buttons: buttons,
           headerType: 1
