@@ -11,7 +11,7 @@ Lizamwol.addCommand({ pattern: 'owner ?(.*)', fromMe: false, desc: 'owner number
 //coded by saidali
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
-            + 'FN: 'Config.BOTV2' OWNER\n' // full name
+            + 'FN: '+Config.BOTV2+' OWNER\n' // full name
             + 'ORG:™;\n' // 
             + 'TEL;type=CELL;type=VOICE;waid= '+Config.NU+' : 'Config.NU'\n' // 
             + 'END:VCARD'
