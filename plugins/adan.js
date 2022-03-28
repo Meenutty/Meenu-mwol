@@ -8,7 +8,7 @@ const {MessageType} = require('@adiwajshing/baileys');
 const got = require('got');
 const Config = require('../config');
 
-// CMD_HELP
+
 const adzan = "Finds prayer time."
 const usage = ".prayer <city>"
 
