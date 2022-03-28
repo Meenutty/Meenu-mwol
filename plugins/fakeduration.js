@@ -16,16 +16,16 @@ let baseURI = '/apps/' + config.HEROKU.APP_NAME;
 
   if (config.LANG == 'EN') {
 
-    AT = '*FAKE BGM DURATION is ON*'
-     ATO = '*FAKE BGM DURATION is OFF*'
-     TO = '*FAKE BGM DURATION is OFF*'
+    AT = '*FAKE BGM DURATION IS ON*'
+     ATO = '*FAKE BGM DURATION IS OFF*'
+     TO = '*FAKE BGM DURATION IS OFF*'
     }
 
     if (config.LANG == 'ML') {
 
-     AT = '*FAKE BGM DURATION is ON*'
-     ATO = '*FAKE BGM DURATION is OFF*'
-     TO = '*FAKE BGM DURATION is OFF*'
+     AT = '*FAKE BGM DURATION IS ON*'
+     ATO = '*FAKE BGM DURATION IS OFF*'
+     TO = '*FAKE BGM DURATION IS OFF*'
     }
 
  Asena.addCommand({pattern: 'fbgm ?(.*)', fromMe: true,dontAddCommandList: true,desc: 'change fake bgm on/true/off. example - .fbgm off/on/true' }, (async (message, match) => {
