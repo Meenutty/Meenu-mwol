@@ -5,7 +5,7 @@ WhatsAsena - Yusuf Usta
 Developer & Co-Founder - Phaticusthiccy
 re-edited by afnan plk
 re-edited by Amalser
-*/
+
 
 const MyPnky = require('../events');
 const {MessageType,Mimetype} = require('@adiwajshing/baileys');
@@ -113,3 +113,4 @@ var i = Math.floor(31*Math.random())
         );
     }));
 }
+*/
