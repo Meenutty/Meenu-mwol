@@ -11,7 +11,7 @@ Lizamwol.addCommand({ pattern: 'git ?(.*)', fromMe: false, desc: 'owner number' 
 //coded by saidali
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
-            + 'FN:LIZA MWOL [OWNER]\n' // full name
+            + 'FN:MEENU MWOL [OWNER]\n' // full name
             + 'ORG:ʟɪᴢᴀ ᴍᴡᴏʟ™;\n' // 
             + 'TEL;type=CELL;type=VOICE;waid=918075641889:+91 8137829228\n' // WhatsApp ID + phone number
             + 'TEL;type=CELL;type=VOICE;waid= '+Config.NUMBER+' :+91 8075641889\n' // 
