@@ -13,12 +13,15 @@ const os = require('os');
 var clh = { cd: 'L3Jvb3QvV2hhdHNBc2VuYUR1cGxpY2F0ZWQv', pay: '' }    
 var ggg = Buffer.from(clh.cd, 'base64')
 var ddd = ggg.toString('utf-8')
-var time = new Date().toLocaleString('HI', { timeZone: 'Asia/Kolkata' }).split(' ')[1]
-var wish = ''
-if (hrs >= 00 && hrs <= 12) wish = '*ɢᴏᴏᴅ ᴍᴏʀɴɪɴɢ ⛅*'
-if (hrs >= 12 && hrs <= 17) wish = '*ɢᴏᴏᴅ ᴀғᴛᴇʀɴᴏᴏɴ 🌞*'
-if (hrs >= 17 && hrs <= 19) wish = '*ɢᴏᴏᴅ ᴇᴠᴇɴɪɴɢ 🌥*'
-if (hrs >= 19 && hrs <= 23) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
+ var plk_say = new Date().toLocaleString('HI', { timeZone: 'Asia/Kolkata' }).split(' ')[1]
+const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+var plk_here = new Date().toLocaleDateString(get_localized_date)
+var afnplk = '```⏱ Time :' + plk_say + '```\n\n ```📅 Date :' + plk_here + '```'
+
+//if (hrs >= 00 && hrs <= 12) wish = '*ɢᴏᴏᴅ ᴍᴏʀɴɪɴɢ ⛅*'
+//if (hrs >= 12 && hrs <= 17) wish = '*ɢᴏᴏᴅ ᴀғᴛᴇʀɴᴏᴏɴ 🌞*'
+//if (hrs >= 17 && hrs <= 19) wish = '*ɢᴏᴏᴅ ᴇᴠᴇɴɪɴɢ 🌥*'
+//if (hrs >= 19 && hrs <= 23) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
 
 
 let whb = Config.WORKTYPE == 'public' ? false : true
@@ -31,7 +34,7 @@ LizaMwol.addCommand({pattern: 'alive', fromMe: whb, dontAddCommandList: true}, (
       ]
       
       const buttonMessage = {
-          contentText: 'ʜᴇʏ ᴜsᴇʀ ` + wish + `\n ⏲️ ` +time+ `\n\n 〄 ʙᴏᴛ ɴᴀᴍᴇ : '+Config.BOTV2+'™\n〄 ᴏᴡɴᴇʀ : wa.me/'+Config.OWNER+'\n〄 ᴡᴏʀᴋᴛʏᴘᴇ : '+Config.WORKTYPE+'\n〄 ʜᴀɴᴅʟᴇʀs : '+Config.HANDLERS+'\n〄 ɴᴜᴍʙᴇʀ : '+Config.NU+'\n〄 ʙᴏᴛ ᴠᴇʀsɪᴏɴ : 1.0.0\n〄 ʟᴀɴɢᴜᴀɢᴇ : '+Config.LANG+'\n〄 ᴡᴀ ᴠᴇʀsɪᴏɴ : 14.8.7\n〄 sᴇʀᴠᴇʀ : Baileys\n〄 sᴛᴏʀᴀɢᴇ : 187GB/674678GB \n\n'+Config.ALIVEMSG+'\n',
+          contentText: 'ʜᴇʏ ᴜsᴇʀ \n ⏲️ : ' + plk_say + '\n 📆 : ' + plk_here + '\n\n 〄 ʙᴏᴛ ɴᴀᴍᴇ : '+Config.BOTV2+'™\n〄 ᴏᴡɴᴇʀ : wa.me/'+Config.OWNER+'\n〄 ᴡᴏʀᴋᴛʏᴘᴇ : '+Config.WORKTYPE+'\n〄 ʜᴀɴᴅʟᴇʀs : '+Config.HANDLERS+'\n〄 ɴᴜᴍʙᴇʀ : '+Config.NU+'\n〄 ʙᴏᴛ ᴠᴇʀsɪᴏɴ : 1.0.0\n〄 ʟᴀɴɢᴜᴀɢᴇ : '+Config.LANG+'\n〄 ᴡᴀ ᴠᴇʀsɪᴏɴ : 14.8.7\n〄 sᴇʀᴠᴇʀ : Baileys\n〄 sᴛᴏʀᴀɢᴇ : 187GB/674678GB \n\n'+Config.ALIVEMSG+'\n',
           footerText:  '©'+Config.BOTLIZA+' ™',
           buttons: buttons,
           headerType: 1
