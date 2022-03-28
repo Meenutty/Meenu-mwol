@@ -3,7 +3,7 @@ const Config = require('../config');
 const {MessageType} = require('@adiwajshing/baileys');
 const got = require('got');
 
-// List
+
 const IPSTATUS_DESC = "It Sends Your IP details"
 const NEED_IP = "*Enter Your IP Address..!*"
 const IP = "IP :"
