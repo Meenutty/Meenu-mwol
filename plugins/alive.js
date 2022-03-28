@@ -13,6 +13,11 @@ const os = require('os');
 var clh = { cd: 'L3Jvb3QvV2hhdHNBc2VuYUR1cGxpY2F0ZWQv', pay: '' }    
 var ggg = Buffer.from(clh.cd, 'base64')
 var ddd = ggg.toString('utf-8')
+var time = new Date().toLocaleString('HI', { timeZone: 'Asia/Kolkata' }).split(' ')[1]
+if (hrs < 12) wish = '*ɢᴏᴏᴅ ᴍᴏʀɴɪɴɢ ⛅*'
+if (hrs >= 12 && hrs <= 17) wish = '*ɢᴏᴏᴅ ᴀғᴛᴇʀɴᴏᴏɴ 🌞*'
+if (hrs >= 17 && hrs <= 19) wish = '*ɢᴏᴏᴅ ᴇᴠᴇɴɪɴɢ 🌥*'
+if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
 
 
 let whb = Config.WORKTYPE == 'public' ? false : true
@@ -25,7 +30,7 @@ LizaMwol.addCommand({pattern: 'alive', fromMe: whb, dontAddCommandList: true}, (
       ]
       
       const buttonMessage = {
-          contentText: '〄 ʙᴏᴛ ɴᴀᴍᴇ:'+Config.BOTV2+'™\n〄 ᴏᴡɴᴇʀ:'+Config.OWNER+'\n〄 ᴡᴏʀᴋᴛʏᴘᴇ:'+Config.WORKTYPE+'\n〄 ʜᴀɴᴅʟᴇʀs:'+Config.HANDLERS+'\n〄 ɴᴜᴍʙᴇʀ:'+Config.NU+'\n〄 ʙᴏᴛ ᴠᴇʀsɪᴏɴ:1.0.0\n〄 ʟᴀɴɢᴜᴀɢᴇ:'+Config.LANG+'\n〄 ᴡᴀ ᴠᴇʀsɪᴏɴ:14.8.7\n\n'+Config.ALIVEMSG+'\n',
+          contentText: 'ʜᴇʏ ᴜsᴇʀ ' + wish + '\n ⏲️ ' +time+ '\n\n 〄 ʙᴏᴛ ɴᴀᴍᴇ : '+Config.BOTV2+'™\n〄 ᴏᴡɴᴇʀ : wa.me/'+Config.OWNER+'\n〄 ᴡᴏʀᴋᴛʏᴘᴇ : '+Config.WORKTYPE+'\n〄 ʜᴀɴᴅʟᴇʀs : '+Config.HANDLERS+'\n〄 ɴᴜᴍʙᴇʀ : '+Config.NU+'\n〄 ʙᴏᴛ ᴠᴇʀsɪᴏɴ : 1.0.0\n〄 ʟᴀɴɢᴜᴀɢᴇ : '+Config.LANG+'\n〄 ᴡᴀ ᴠᴇʀsɪᴏɴ : 14.8.7\n〄 sᴇʀᴠᴇʀ : Baileys\n〄 sᴛᴏʀᴀɢᴇ : 187GB/674678GB \n\n'+Config.ALIVEMSG+'\n',
           footerText:  '©'+Config.BOTLIZA+' ™',
           buttons: buttons,
           headerType: 1
