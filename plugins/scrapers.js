@@ -147,12 +147,12 @@ if (config.WORKTYPE == 'private') {
             return await message.client.sendMessage(message.jid,Lang.TRANSLATE_ERROR,MessageType.text)
         }
     }));
-    var l_dsc = ''
+    /*var l_dsc = ''
     var alr_on = ''
     var alr_off = ''
     var succ_on = ''
     var succ_off = ''
-    if (config.LANG == 'TR') {
+   if (config.LANG == 'TR') {
         l_dsc = 'Antilink aracını etkinleştirir.'
         alr_on = 'Antilink halihazırda açık!'
         alr_off = 'Antilink halihazırda kapalı!'
@@ -243,7 +243,8 @@ if (config.WORKTYPE == 'private') {
                 await message.client.sendMessage(message.jid, '*' + succ_off + '*', MessageType.text)
             }
         }
-    }));
+ }));
+ */
     var auto_dsc = ''
     var alr_on_bio = ''
     var alr_off_bio = ''
