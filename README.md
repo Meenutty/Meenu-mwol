@@ -31,7 +31,11 @@
 
 <a href="https://meenu-mwol.yolasite.com/"><img title="CLICK HERE TO CREATE BOT" src="./photos/bot.png" width=300 height=100></a>
 
+<img src="https://github.com/SP-XD/SP-XD/blob/main/images/dino_rounded.gif?raw=true" href="https://github.com/SP-XD" />
 
+
+
+</div
 
 ## Developers
   <div align="center">
