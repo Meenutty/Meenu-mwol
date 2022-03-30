@@ -65,4 +65,4 @@ await he.patch(ur + '/config-vars', { body: {['AUDIO_DATA']: qu[1]}});}));
 addCommand({pattern: 'mp4 ?(.*)', fromMe: a, desc:'Converts animated sticker to video'}, (async (m, t) => { 
 var q = await m.client.downloadAndSaveMediaMessage({key: {remoteJid: m.reply_message.jid,id: m.reply_message.id},message: m.reply_message.data.quotedMessage});
 await m.client.sendMessage(m.jid, await webp2mp4(take_key.endsWith('net')?'4bc0575f8bb479527cd1d13a194c3fed':take_key,q,SESSION),MessageType.video,{quoted:m.data});}));
-*/    
+*/   
