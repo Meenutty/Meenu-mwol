@@ -15,7 +15,7 @@
 </p>
 </div>
 <p align="center">
-𝑻𝑯𝑰𝑺 𝑩𝑶𝑻 𝑰𝑺 𝑪𝑹𝑬𝑨𝑻𝑬𝑫 𝑩𝒀 𝑨𝑴𝑹𝑼,𝑱𝑨𝑪𝑲𝒁,𝑨𝑩𝑼,𝑭𝑶𝑿𝒀
+𝑻𝑯𝑰𝑺 𝑩𝑶𝑻 𝑰𝑺 𝑪𝑹𝑬𝑨𝑻𝑬𝑫 𝑩𝒀 𝑨𝑴𝑹𝑼,𝑱𝑨𝑪𝑲𝒁,𝑨𝑩𝑼,𝑭𝑶𝑿𝒀,𝑷𝑹𝑰𝑵𝑪𝑬
     <br>
        | © |
         Reserved |
@@ -37,7 +37,8 @@
 
 </div
 
-## Developers
+`DEVELOPERS`
+
   <div align="center">
     
   [![Jackz-ser](https://github.com/Jackz-ser.png?size=100)](https://github.com/Jackz-ser) | [![AMRUSIR](https://github.com/AMRUSIR.png?size=100)](https://github.com/AMRUSIR) | [![Afx-Abu](https://github.com/Afx-Abu.png?size=100)](https://github.com/Afx-Abu) | [![FOXY](https://github.com/FOXYSER.png?size=100)](https://github.com/FOXY) | [![Prince ser](https://github.com/PRINCE-SER.png?size=100)](https://github.com/PRINCE-SER)    
