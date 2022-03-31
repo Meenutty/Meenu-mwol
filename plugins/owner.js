@@ -15,7 +15,7 @@ if (Config.WORKTYPE == 'private') {
             await message.client.sendMessage(message.jid,'_*MEENU MWOL BY JACKZ,ABU,AMRU,FOXY*_' , MessageType.text);
         }
         else {
-            await message.client.sendMessage(message.jid,Config.OWNER + '\n\n---------------------', MessageType.text);
+            await message.client.sendMessage(message.jid,Config.OWNER + '\n\n𝑯𝑬 𝑰𝑺 𝑴𝒀 𝑩𝑶𝑺𝑺😌💞', MessageType.text);
         }
     }));
 }
@@ -33,7 +33,7 @@ else if (Config.WORKTYPE == 'public') {
             await message.client.sendMessage(message.jid,'_*MEENU MWOL BY JACKZ,ABU,AMRU,FOXY*_' , MessageType.text);
         }
         else {
-            await message.client.sendMessage(message.jid,Config.OWNER + '\n\n--------------------', MessageType.text);
+            await message.client.sendMessage(message.jid,Config.OWNER + '\n\n𝑯𝑬 𝑰𝑺 𝑴𝒀 𝑩𝑶𝑺𝑺😌💞', MessageType.text);
         }
     }));
 }
