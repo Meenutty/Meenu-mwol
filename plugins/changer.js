@@ -19,7 +19,7 @@ let baseURI = '/apps/' + config.HEROKU.APP_NAME;
     plk_desc = 'change reply message BGM mode'
     BGM_ONE = '_*BGM TYPE CHANGED TO MODE 1*_'
     BGM_TWO = '_*BGM TYPE CHANGED TO MODE 2*_'
-    BGM_EFX = '_*ACTIVATED EFX AUDIO MODE*_
+    BGM_EFX = '_*ACTIVATED EFX AUDIO MODE*_'
     }
 
     if (config.LANG == 'ML') {
