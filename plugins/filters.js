@@ -82,6 +82,41 @@ if(pattern.test(message.message)){
     );
 }));
 }
+if (Config.GEAR == 'efx') {  
+    
+Asena.addCommand({on: 'text', fromMe: false}, (async (message, match) => {
+        if(Config.BGMFILTER){
+            var uri = encodeURI(match[1])
+        let banned = jid.find( Jid => Jid === message.jid);
+        if(banned !== undefined) return
+        if (!!message.mention && message.mention[0] == '918075641889@s.whatsapp.net') {
+await message.client.sendMessage(message.jid, fs.readFileSync('./media/uploads/mention.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
+        }
+        if (!!message.mention && message.mention[0] == Config.MENTION) {
+await message.client.sendMessage(message.jid, fs.readFileSync('./media/uploads/Fayas.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
+        }
+        
+const array = ['efx'] 
+array.map( async (a) => {
+let pattern = new RegExp(`\\b${a}\\b`, 'g');
+if(pattern.test(message.message)){
+       await message.client.sendMessage(message.jid, fs.readFileSync('./efxaudio/' + a + '.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio,duration: Config.MWOL, quoted: message.data, ptt: true})
+}
+});
+    }
+
+    var filtreler = await FilterDb.getFilter(message.jid);
+    if (!filtreler) return; 
+    filtreler.map(
+        async (filter) => {
+            pattern = new RegExp(filter.dataValues.regex ? filter.dataValues.pattern : ('\\b(' + filter.dataValues.pattern + ')\\b'), 'gm');
+            if (pattern.test(message.message)) {
+                await message.client.sendMessage(message.jid,filter.dataValues.text, MessageType.text, {quoted: message.data});
+            }
+        }
+    );
+}));
+}
     if (Config.GEAR == 'two') {    
     Asena.addCommand({on: 'text', fromMe: false}, (async (message, match) => {   
         if(Config.BGMFILTER){
