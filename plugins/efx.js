@@ -9,7 +9,7 @@ const axios = require('axios');
 
 Jackz.addCommand({pattern: 'efx', fromMe: false, desc: 'It sends all efx list'}, (async (message, match) => {
 
-    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, contextInfo: {mentionedJid: message.mention}, caption: `╭──────────────────╮ 
+const cmd =  `╭──────────────────╮ 
 ╭──────────────────╯
 │ EFX AUDIO NAME LIST
 ╰──────────────────╮
@@ -43,7 +43,11 @@ Jackz.addCommand({pattern: 'efx', fromMe: false, desc: 'It sends all efx list'},
 ╰───────────────────╯ 
 
 `}) 
-
-}));                                                                 
-                                                                              
+           
+   });
+    }
+                                                                 
+            await message.client.sendMessage(message.jid, cmd, MessageType.text, { quoted: message.data });
+   });
+    }                                                                  
                                                                                                                                                         
