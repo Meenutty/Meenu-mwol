@@ -2,7 +2,7 @@ const Julie = require('../events');
 const {MessageType} = require('@adiwajshing/baileys');
 const Config = require('../config');
 
-if (Config.WORKTYPE == 'private') {
+if (Config.WORKTYPE == 'public') {
 
     Julie.addCommand({pattern: 'efx', fromMe: true, desc: 'shows the full efx audio list'}, (async (message, match) => {
 
@@ -12,7 +12,7 @@ if (Config.WORKTYPE == 'private') {
         }
 
         else {
-            await message.client.sendMessage(message.jid,'╭──────────────────╮\n╭──────────────────╯\n│ EFX AUDIO NAME LIST \n╰──────────────────╮   ʙᴏᴛ ɴᴀᴍᴇ : '+Config.BOTV2+'   \n╭──────────────────╯\n│⚠︎ use  .efx(number)\n│\n│efx1 = Infinity audio\n│efx2 = love again audio\n│efx3 = Jack Sparrow \n│efx4 = Infected \n│efx5 = I m beggin\n│efx6 = Wasted neoo p\n│efx7 = Infinity audio 2\n│efx8 = enakkage poranthaye tamil\n│efx9 = Devil eyes\n│efx10 = Runnin low\n│efx11 = Arcadia (skeler)\n│efx12 = No idea\n│efx13 = Go down deh\n│efx14 = Kun faya kun\n│efx15 = I love you baby\n╰───────────────────╮\n╭───────────────────╯\n│CREATED BY JACKZ\n│CONCEPT BY AMRU \n│©\n╰───────────────────╮\n╰───────────────────╯ ', MessageType.text);
+            await message.client.sendMessage(message.jid,'╭──────────────────╮\n╭──────────────────╯\n│ *EFX AUDIO NAME LIST* \n╰──────────────────╮      ʙᴏᴛ ɴᴀᴍᴇ : '+Config.BOTV2+'   \n╭──────────────────╯\n│⚠︎ use  .efx(number)\n│\n│efx1 = Infinity audio\n│efx2 = love again audio\n│efx3 = Jack Sparrow \n│efx4 = Infected \n│efx5 = I m beggin\n│efx6 = Wasted neoo p\n│efx7 = Infinity audio 2\n│efx8 = enakkage poranthaye tamil\n│efx9 = Devil eyes\n│efx10 = Runnin low\n│efx11 = Arcadia (skeler)\n│efx12 = No idea\n│efx13 = Go down deh\n│efx14 = Kun faya kun\n│efx15 = I love you baby\n╰───────────────────╮\n╭───────────────────╯\n│_*CREATED BY JACKZ*_\n│_*CONCEPT BY AMRU*_ \n│©\n╰───────────────────╮\n╰───────────────────╯ ', MessageType.text);
         }
     }));
 }
