@@ -42,10 +42,7 @@ const cmd =  `╭──────────────────╮
 ╰───────────────────╮
 ╰───────────────────╯ 
 
-`}) 
-           
-   });
-    }
+`}))
                                                                  
             await message.client.sendMessage(message.jid, cmd, MessageType.text, { quoted: message.data });
    });
