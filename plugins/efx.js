@@ -18,7 +18,7 @@ Jackz.addCommand({pattern: 'efx', fromMe: false, desc: 'It sends all efx list'},
                                                        
 ╭──────────────────╯
 │⚠︎ use  .efx(number)
-│
+│  ▎▍▌▌▉▏▎▌▉▐▏▌▎
 │efx1 = Infinity audio
 │efx2 = love again audio
 │efx3 = Jack Sparrow 
@@ -26,7 +26,7 @@ Jackz.addCommand({pattern: 'efx', fromMe: false, desc: 'It sends all efx list'},
 │efx5 = I m beggin
 │efx6 = Wasted neoo p
 │efx7 = Infinity audio 2      
-│efx8 = enakkage poranthaye tamil
+│efx8 = enakage poranthaye tamil
 │efx9 = Devil eyes    
 │efx10 = Runnin low  
 │efx11 = Arcadia (skeler) 
