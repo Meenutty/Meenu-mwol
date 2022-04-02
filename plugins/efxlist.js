@@ -4,7 +4,7 @@ const Config = require('../config');
 
 if (Config.WORKTYPE == 'public') {
 
-    Julie.addCommand({pattern: 'efx', fromMe: true, desc: 'shows the full efx audio list'}, (async (message, match) => {
+    Julie.addCommand({pattern: 'allefx', fromMe: true, desc: 'shows the full efx audio list'}, (async (message, match) => {
 
         if (message.jid === '15369524516-1612300121@g.us') {
 
