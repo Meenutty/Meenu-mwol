@@ -1,7 +1,7 @@
 const truth = JSON.parse(fs.readFileSync('./database/truth.json'))
 const dare = JSON.parse(fs.readFileSync('./database/dare.json'))
 module.exports = xeon = async (xeon, mek) => {
-case 'buttons5':
+          case 'buttons5':
               const mathdare = dare[Math.floor(Math.random() * (dare.length))]
               result = `${mathdare}`
               buttons = [{buttonId: `buttons6`,buttonText:{displayText: 'Truth'},type:1},{buttonId:`buttons5`,buttonText:{displayText:'Dare'},type:1}]
