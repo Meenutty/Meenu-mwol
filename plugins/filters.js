@@ -96,7 +96,7 @@ await message.client.sendMessage(message.jid, fs.readFileSync('./efxaudio/efx4.m
 await message.client.sendMessage(message.jid, fs.readFileSync('./efxaudio/efx5.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
         }
         
-const array = ['efx1','efx2','efx3','efx4','efx5','efx6','efx7','efx8','efx9','efx10','efx11','efx12','efx13','efx14','efx15','efx16'] 
+const array = ['efx1','efx2','efx3','efx4','efx5','efx6','efx7','efx8','efx9','efx10','efx11','efx12','efx13','efx14','efx15','efx16','efx17','efx18','efx19','efx20','efx21','efx22','efx23','efx24','efx25','efx26','efx27','efx28','efx29','efx30','efx31','efx32','efx33','efx34','efx35','efx36','efx37','efx38','efx39','efx40','efx41','efx42','efx43','efx44','efx45'] 
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
