@@ -36,20 +36,20 @@ let baseURI = '/apps/' + config.HEROKU.APP_NAME;
                         ['CHANGE_BGM_TO']: 'two'
                     } 
                 });
-                await message.sendMessage(BGM_TWO,BGM_EFX)
+                await message.sendMessage(BGM_TWO)
         } else if (match[1] == 'efx') {
                 await heroku.patch(baseURI + '/config-vars', { 
                     body: { 
                         ['CHANGE_BGM_TO']: 'efx'
                     } 
                 });
-                await message.sendMessage(BGM_ONE,BGM_TWO)
+                await message.sendMessage(BGM_EFX)
         } else if (match[1] == 'one') {
                 await heroku.patch(baseURI + '/config-vars', { 
                     body: { 
                         ['CHANGE_BGM_TO']: 'one'
                     } 
                 });
-                await message.sendMessage(BGM_ONE,BGM_EFX)
+                await message.sendMessage(BGM_ONE)
         }
     }));
