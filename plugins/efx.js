@@ -1,4 +1,4 @@
-
+/*
 const Jackz= require('../events');
 
 const Config = require('../config');
@@ -48,3 +48,4 @@ const cmd =  `╭──────────────────╮
    });
     }                                                                  
                                                                                                                                                         
+*/
