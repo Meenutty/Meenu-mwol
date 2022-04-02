@@ -14,7 +14,7 @@ Jackz.addCommand({pattern: 'efx', fromMe: false, desc: 'It sends all efx list'},
 │ EFX AUDIO NAME LIST
 ╰──────────────────╮
                                                        
-  ❏ Bᴏᴛ ɴᴀᴍᴇ : `+config.BOTV2+`   
+  ❏ Bᴏᴛ ɴᴀᴍᴇ : `+Config.BOTV2+`   
                                                        
 ╭──────────────────╯
 │⚠︎ use  .efx(number)
