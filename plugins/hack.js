@@ -192,7 +192,7 @@ r_text5[9] = "38%";
 
     var d = Math.floor(10*Math.random())
 
-    await message.sendMessage(`*Process Running...* \n\n𝕎𝕙𝕒𝕥𝕤𝔸𝕡𝕡: ${r_text[i]} \n𝔾𝕒𝕝𝕝𝕖𝕣𝕪: ${r_text2[a]} \n𝔻𝕠𝕔𝕦𝕞𝕖𝕟𝕥𝕤: ${r_text3[b]} \n𝔽𝕚𝕝𝕖𝕤: ${r_text4[c]} \nℂ𝕒𝕞𝕖𝕣𝕒: ${r_text5[d]}`);
+    await message.sendMessage(`*Process Running...* \n\n*WHATSAPP*: ${r_text[i]} \n*GALLERY*: ${r_text2[a]} \n*DOCUMENTS*: ${r_text3[b]} \n*FILES*: ${r_text4[c]} \n*CAMERA*: ${r_text5[d]}`);
 
     await new Promise(r => setTimeout(r, 5000));
 
