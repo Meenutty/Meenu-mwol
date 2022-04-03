@@ -17,8 +17,6 @@ go = mm
 } 
 var initt = go.split(" ").join("")
 var number = initt.replace('+','')
-var number = query || msg.reply_message.jid
 var {data} = await axios(`https://raganork-api.herokuapp.com/api/truecaller?text=in&username=${number}&apikey=souravkl11`);
-var result = data.result.data[0] == 'error' ? 'Limit over (50/50). Wait for tomorrow' : data.result.data[0]
-await msg.sendMessage(result)
+await msg.sendMessage(data.result.data[0] == 'error' ? 'Server limit over (50/50)' : data.result.data[0])
 })
