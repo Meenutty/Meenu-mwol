@@ -1,6 +1,9 @@
 const {addCommand} = require("../events");
 const {MessageType, Mimetype  } = require('@adiwajshing/baileys')
 const axios = require('axios');
+const Config = require("../config")
+
+if (Config.WORKTYPE == 'admin') {
 
 addCommand({ pattern: 'hack ?(.*)', fromMe: true, desc: "Hack prank tool...", }, async (message, match) => {
 
@@ -441,4 +444,4 @@ r_text5[5] = "99%";
 
     await message.sendMessage('*LOG Documents Created! You Can Access It In Your Database.* ');
 
-});
+}});
