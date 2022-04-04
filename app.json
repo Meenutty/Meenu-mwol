@@ -199,7 +199,7 @@
         "LG_LOGO": {
             "description": "Give your own bot image link",
             "required": true,
-            "value": "https://telegra.ph/file/0e0409148fa47cdb92582.jpg"
+            "value": "https://i.imgur.com/QKLTYKt.jpeg"
         },
         "LOGO_NAME": {
             "description": "Set the logo list name",
