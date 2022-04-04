@@ -59,6 +59,7 @@
     "languagedetect": "^2.0.0",
     "meme-maker": "^2.1.2",
     "mongodb": "^3.6.3",
+    "mp3-cutter": "1.0.6",
     "node-fetch": "^2.6.1",
     "node-tesseract-ocr": "^2.0.0",
     "pg": "^8.5.1",
