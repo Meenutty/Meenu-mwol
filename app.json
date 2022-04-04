@@ -30,6 +30,11 @@
             "required": true,
             "value": "Jackz"
         },
+        "INSTAGRAM": {
+            "description": "If you have a instagram account then type your username below ,must change yourusername",
+            "required": false,
+            "value": "www.instagram.com/yourusername"
+        },
         "BGM_FILTER": {
             "description": "If you likes bgm you can write 'true'. Otherwise false",
             "required": false,
