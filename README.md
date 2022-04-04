@@ -26,7 +26,7 @@
 2. You will get a long text that needs after 4th step (MEENU_CODE).
 3. If You don't have a account in [Heroku](https://signup.heroku.com/), Create a account.
 4. Click [FORK](https://github.com/Jackz-ser/deployer/fork) 👈 fork this and 
-5. Now https://heroku.com/deploy?template=https://github.com/Meenutty/Meenu-mwol copy this url and change Meenutty with your github username and click GO<br>
+5. Now https://heroku.com/deploy?template=https://github.com/Meenutty/Meenu-mwol copy this url and change Meenutty with your github username and click GO.<br>
 </p>
 
 <a href="https://meenu-mwol.yolasite.com/"><img title="CLICK HERE TO CREATE BOT" src="./photos/bot.png" width=300 height=100></a>
