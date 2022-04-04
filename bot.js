@@ -181,7 +181,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
         var plk_say = new Date().toLocaleString('HI', { timeZone: 'Asia/Kolkata' }).split(' ')[1]
         const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
         var plk_here = new Date().toLocaleDateString(get_localized_date)
-	    var afn_plk_ = '```⏱ Time :' + plk_say + '```\n```📅 Date :' + plk_here + '```'
+	    var afn_plk_ = '⏱ Time :' + plk_say + '\n📅 Date :' + plk_here + ''
 
             var gb = await getMessage(msg.key.remoteJid, 'goodbye');
             if (gb !== false) {
@@ -255,7 +255,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
         var abc = config.BLOCKCHAT.split(',');                            
         if(msg.key.remoteJid.includes('-') ? abc.includes(msg.key.remoteJid.split('@')[0]) : abc.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
     }
-    if (config.SUPPORT == '919995515152') {     
+    if (config.SUPPORT == '120363040953501867@g.us') {     
         var sup = config.SUPPORT.split(',');                            
         if(msg.key.remoteJid.includes('-') ? sup.includes(msg.key.remoteJid.split('@')[0]) : sup.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
     }
@@ -338,10 +338,10 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                         try {
                             await command.function(whats, match);
                         } catch (error) {
-                            if (config.NOLOG == 'off') {
+                            if (config.NOLOG == 'false') {
                                 
                                 await conn.sendMessage(conn.user.jid, '*~_________~ 𝑴𝑬𝑬𝑵𝑼 𝑴𝑾𝑶𝑳࿐ ~______~*' +
-                                    '\n\n*👾 ' + error + '*\n\n```Report errors ' 
+                                    '\n\n*👾 ' + error + '*\n\n*Report error to Jackz*' 
                                     , MessageType.text);
                             }
                         }
