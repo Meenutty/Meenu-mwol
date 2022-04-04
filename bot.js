@@ -157,7 +157,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                     );
                     await conn.sendMessage(
                         conn.user.jid,
-                        '```AN UPDATE AVAILABLE```\n\n```type``` *.update now* ```to update```' + degisiklikler + '```', MessageType.text
+                        '_*AN UPDATE AVAILABLE*_\n\n```Join before update``` *https://chat.whatsapp.com/Ck57KPYaAzv6h9XtBDA2vo*' + degisiklikler + '```', MessageType.text
                 ); 
             } 
       }
