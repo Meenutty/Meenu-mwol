@@ -29,7 +29,10 @@
 5. Now https://heroku.com/deploy?template=https://github.com/Meenutty/Meenu-mwol copy this url and change Meenutty with your github username and click GO.<br>
 </p>
 
-<a href="https://meenu-mwol.yolasite.com/"><img title="CLICK HERE TO CREATE BOT" src="./photos/bot.png" width=300 height=100></a>
+<a href="https://meenu-mwol.yolasite.com/"><img title="CLICK HERE TO CREATE BOT" src="./photos/create.jpeg" width=300 height=100></a>
+
+<a href="github.com/Jackz-ser/meenu-deploy/fork"><img title="CLICK TO FORK" src="./photos/repo.jpeg" width=300 height=100></a>
+
 
 <img src="https://github.com/SP-XD/SP-XD/blob/main/images/dino_rounded.gif?raw=true" href="https://github.com/SP-XD" />
 
