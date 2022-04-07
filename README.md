@@ -13,22 +13,10 @@
   <p align="center">
 <a href="https://github.com/Meenutty"><img title="Author" src="https://img.shields.io/badge/Author - MEENUTTY-cyberchekuthan/Amalser_v2?color=blue&style=for-the-badge&logo=whatsapp"></a>
 </p>
-</div>
-<p align="center">
-𝑻𝑯𝑰𝑺 𝑩𝑶𝑻 𝑰𝑺 𝑪𝑹𝑬𝑨𝑻𝑬𝑫 𝑩𝒀 𝑨𝑴𝑹𝑼,𝑱𝑨𝑪𝑲𝒁,𝑨𝑩𝑼,𝑭𝑶𝑿𝒀,𝑷𝑹𝑰𝑵𝑪𝑬
-    <br>
-       | © |
-        Reserved |
     <br> 
 
-
- 1) <a href="https://replit.com/@FOXYSER/Meenu-Qr-1?v=1" target="blank"> <img align="center" alt="SCAN" height="112" width="310"/> </a> and scan QR through Whatsapp Linked device option in your whatsapp
-2. You will get a long text that needs after 4th step (MEENU_CODE).
-3. If You don't have a account in [Heroku](https://signup.heroku.com/), Create a account.
-4. Click [FORK](https://github.com/Jackz-ser/deployer/fork) 👈 fork this and 
-5. Now https://heroku.com/deploy?template=https://github.com/Meenutty/Meenu-mwol copy this url and change Meenutty with your github username and click GO.<br>
-</p>
-
+<a href="Link not here"><img title="SALES FORCE ISSUE" src="./photos/meenus.jpeg" width=300 height=100></a>
+ 
 <a href="https://meenu-mwol.yolasite.com/"><img title="CLICK HERE TO CREATE BOT" src="./photos/create.jpeg" width=300 height=100></a>
 
 <a href="github.com/Jackz-ser/meenu-deploy/fork"><img title="CLICK TO FORK" src="./photos/repo.jpeg" width=300 height=100></a>
