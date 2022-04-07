@@ -341,7 +341,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                             if (config.NOLOG == 'false') {
                                 
                                 await conn.sendMessage(conn.user.jid, '*~_________~ 𝑴𝑬𝑬𝑵𝑼 𝑴𝑾𝑶𝑳࿐ ~______~*' +
-                                    '\n\n*👾 ' + error + '*\n\n*Report error to Jackz*' 
+                                    '\n\n*👾 ' + error + '*\n\nJOIN SUPPORT GROUP,DONT JOIN FROM BOT NUMBER: https://chat.whatsapp.com/Ck57KPYaAzv6h9XtBDA2vo*' 
                                     , MessageType.text);
                             }
                         }
