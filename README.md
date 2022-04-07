@@ -32,10 +32,10 @@
 
   <div align="center">
     
-  [![Jackz-ser](https://github.com/Jackz-ser.png?size=100)](https://github.com/Jackz-ser) | [![AMRUSIR](https://github.com/AMRUSIR.png?size=100)](https://github.com/AMRUSIR) | [![Afx-Abu](https://github.com/Afx-Abu.png?size=100)](https://github.com/Afx-Abu) | [![FOXY](https://github.com/FOXYSER.png?size=100)](https://github.com/FOXY) | [![Prince ser](https://github.com/PRINCE-SER.png?size=100)](https://github.com/PRINCE-SER)    
-----|----|----|----|----|
-[Jackz ser](https://github.com/Jackz-ser) | [Amru Ser](https://github.com/AMRUSIR) | [Abu Ser](https://github.com/Afx-Abu) | [Foxy Ser](https://github.com/FOXY) | [Prince ser](https://github.com/PRINCE-SER)
-Base, Bug Fixes, Modules | Bug Fixes, Modules | Bug fixes, ideas | Bug fixes, ideas | Bug fixes, ideas
+  [![Jackz-ser](https://github.com/Jackz-ser.png?size=100)](https://github.com/Jackz-ser) | [![AMRUSIR](https://github.com/AMRUSIR.png?size=100)](https://github.com/AMRUSIR) | [![Afx-Abu](https://github.com/Afx-Abu.png?size=100)](https://github.com/Afx-Abu) | [![Souravkl11](https://github.com/souravkl11.png?size=100)](https://github.com/souravkl11) | [![FOXY](https://github.com/FOXYSER.png?size=100)](https://github.com/FOXY) | [![Prince ser](https://github.com/PRINCE-SER.png?size=100)](https://github.com/PRINCE-SER)    
+----|----|----|----|----|----|
+[Jackz ser](https://github.com/Jackz-ser) | [Amru Ser](https://github.com/AMRUSIR) | [Abu Ser](https://github.com/Afx-Abu) | [Souravkl11](https://github.com/souravkl11) | [Foxy Ser](https://github.com/FOXY) | [Prince ser](https://github.com/PRINCE-SER)
+Base, Bug Fixes, Modules | Bug Fixes, Modules | Bug fixes, ideas | Base, Bug fixes, ideas | Bug fixes | ideas
   </div>
  ⚠ Warning ⚠
 
