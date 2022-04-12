@@ -63,7 +63,7 @@ module.exports = {
     HANDLERS: process.env.HANDLERS === undefined ? '^[.!;]' : process.env.HANDLERS,
     TAGPLK: process.env.TAG_HEADER === undefined ? 'Note this' : process.env.TAG_HEADER,
     SEND_READ: process.env.SEND_READ === undefined ? false : convertToBool(process.env.SEND_READ),
-    YAK: process.env.YAK === undefined ? '918075641889,0' : process.env.YAK,
+    YAK: process.env.YAK === undefined ? '918075641889,919400490452' : process.env.YAK,
     OWNERSHIP: process.env.OWNER_SHIP === undefined ? 'MEENU-MWOL' : process.env.OWNER_SHIP,
     LIZA: process.env.LOGO_LINK === undefined ? 'https://i.imgur.com/1oJmudq.jpeg' : process.env.LOGO_LINK,
     MWOL: process.env.BGM_DURATION === undefined ? '7280542' : process.env.BGM_DURATION,
