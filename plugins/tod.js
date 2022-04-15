@@ -2,7 +2,7 @@ const jackz = require('../events')
 const Config = require('../config')
 const {WORKTYPE} = require('../config');
 let w = WORKTYPE =='public'?false:true
-jackz({pattern: 'tod', fromMe: w, desc: 'Truth Or Dare Game'}, (async (message, match) => {
+jackz.addCommand({pattern: 'tod', fromMe: w, desc: 'Truth Or Dare Game'}, (async (message, match) => {
 	
          var r_text = newArray ();
 	
@@ -112,7 +112,7 @@ const buttonMessage = {
 
 await message.client.sendMessage(message.jid, buttonMessage)
 }))
-jackz({on: 'button', fromMe: w, desc: 'Truth or dare'}, (async (message, match) => {
+jackz.addCommand({on: 'button', fromMe: w, desc: 'Truth or dare'}, (async (message, match) => {
 await message.client.sendMessage(message.jid, { text: JSON.stringify(message) },{ quoted: message.data })	
 if (message.tembutton === 'truth') await message.client.sendMessage(message.jid, { text: `$r_text[i]` },{ quoted: message.data })
 	if (message.tembutton === 'dare') await message.client.sendMessage(message.jid, { text: dare },{ quoted: message.data })
