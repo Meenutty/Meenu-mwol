@@ -1,8 +1,6 @@
 const jackz = require('../events')
 const Config = require('../config')
 const {WORKTYPE} = require('../config');
-const truth = JSON.parse(fs.readFileSync('./database/truth.json'))
-const dare = JSON.parse(fs.readFileSync('./database/dare.json'))
 let w = WORKTYPE =='public'?false:true
 jackz({pattern: 'tod', fromMe: w, desc: 'Truth Or Dare Game'}, (async (message, match) => {
 	
