@@ -1,9 +1,12 @@
 const jackz = require('../events')
 const Config = require('../config')
 const {WORKTYPE} = require('../config');
+const fs = require('fs');
+const truth = JSON.parse(fs.readFileSync('./database/truth.json'))
+const dare = JSON.parse(fs.readFileSync('./database/dare.json'))
 let w = WORKTYPE =='public'?false:true
 jackz.addCommand({pattern: 'tod', fromMe: w, desc: 'Truth Or Dare Game'}, (async (message, match) => {
-	
+/*
          var r_text = newArray ();
 	
 r_text[0] = "Have you ever liked anyone? How long?";
@@ -97,7 +100,7 @@ r_text[87] = "Whats the strangest dream you have ever had";
 r_text[88] = "do you play FreeFire ,if you then send ur id number"
 	
 	var i = Math.floor(89*Math.random())
-	
+*/
 const templateButtons = [
   {index: 1, quickReplyButton: {displayText: 'TRUTH', id: 'truth'}},
   {index: 2, quickReplyButton: {displayText: 'DARE', id: 'dare'}}
@@ -114,7 +117,7 @@ await message.client.sendMessage(message.jid, buttonMessage)
 }))
 jackz.addCommand({on: 'button', fromMe: w, desc: 'Truth or dare'}, (async (message, match) => {
 await message.client.sendMessage(message.jid, { text: JSON.stringify(message) },{ quoted: message.data })	
-if (message.tembutton === 'truth') await message.client.sendMessage(message.jid, { text: `$r_text[i]` },{ quoted: message.data })
+if (message.tembutton === 'truth') await message.client.sendMessage(message.jid, { text: truth },{ quoted: message.data })
 	if (message.tembutton === 'dare') await message.client.sendMessage(message.jid, { text: dare },{ quoted: message.data })
  
 }))
