@@ -4,8 +4,8 @@ const {WORKTYPE} = require('../config');
 let w = WORKTYPE =='public'?false:true
 jackz({pattern: 'tod', fromMe: w, desc: 'Truth Or Dare Game'}, (async (message, match) => {
 	
-   else 
          var r_text = newArray ();
+	
 r_text[0] = "Have you ever liked anyone? How long?";
 r_text[1] = "If you can or if you want; which gc/outside gc would you make friends with? (maybe different/same type)";
 r_text[2] = "apa ketakutan terbesar kamu?";
