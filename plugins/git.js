@@ -20,7 +20,7 @@ LizaMwol.addCommand({pattern: 'git', fromMe: whb, dontAddCommandList: true}, (as
       ]
       
       const buttonMessage = {
-          contentText: ' *BOT GIT : github.com/Meenutty/Meenu-mwol*\n\n\n*DEVELOPERS*\n\n*Jackz ser : wa.me/918075641889*\n*Foxy ser : wa.me/919400490452*\n*Abu ser : wa.me/917025994178*\n*Amru ser : wa.me/917025631103*\n*Prince ser : wa.me/918590565968 *'\n',
+          contentText: ' *BOT GIT : github.com/Meenutty/Meenu-mwol*\n\n\n*DEVELOPERS*\n\n*Jackz ser : wa.me/918075641889*\n*Foxy ser : wa.me/919400490452*\n*Abu ser : wa.me/917025994178*\n*Amru ser : wa.me/917025631103*\n*Prince ser : wa.me/918590565968 *',
           footerText:  '©'+Config.BOTLIZA+' ™',
           buttons: buttons,
           headerType: 1
